@@ -1,0 +1,70 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    /* padding-top: 1rem; */
+    transition: all 300ms ease;
+    width: 14rem;
+    margin-bottom: 10rem;
+  }
+  /* logo */
+  .bars{
+    display: none;
+  }
+  
+  .logo {
+    margin-right: 1.3rem;
+    display: flex;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 4%;
+  }
+  .logo > span > span {
+    color: var(--pink);
+  }
+  
+  .logo > img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .menu {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .menuItems {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 150ms ease;
+    border-radius: 0.7rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(48, 44, 44);
+  }
+  .menuItems:hover {
+    cursor: pointer;
+  }
+  
+  .active {
+    background: var(--activeItem);
+    margin-left: 0;
+  }
+  .active::before {
+    content: "";
+    width: 8px;
+    height: 100%;
+    background: var(--pink);
+    margin-right: calc(1rem - 8px);
+  }
+  
+  
+  

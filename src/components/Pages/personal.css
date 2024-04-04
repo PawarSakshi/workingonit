@@ -1,0 +1,11 @@
+.personal {
+  display: grid;
+  
+}
+
+.calendar-container {
+    width: 25rem;
+    height: 22.5rem;
+    margin: 5rem;
+    background-color: rgb(250, 255, 255);
+  }
